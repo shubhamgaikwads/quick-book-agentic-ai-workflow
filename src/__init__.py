@@ -1,0 +1,1 @@
+"""Quick Book Assistant package."""

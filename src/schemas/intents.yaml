@@ -1,0 +1,61 @@
+intents:
+  - id: book_appointment
+    name: Book appointment
+    description: Intent to book a new appointment
+    keywords:
+      - book
+      - schedule
+      - appointment
+      - meeting
+    examples:
+      - "I want to book an appointment"
+      - "Schedule a meeting for me"
+      - "Can I set up an appointment?"
+  
+  - id: cancel_appointment
+    name: Cancel appointment
+    description: Intent to cancel an existing appointment
+    keywords:
+      - cancel
+      - drop
+      - remove
+    examples:
+      - "Cancel my appointment"
+      - "I need to cancel my meeting"
+      - "Please remove my scheduled appointment"
+  
+  - id: reschedule_appointment
+    name: Reschedule appointment
+    description: Intent to reschedule an existing appointment
+    keywords:
+      - reschedule
+      - move
+      - change
+    examples:
+      - "I want to reschedule my appointment"
+      - "Change my meeting time"
+      - "Can we move my appointment to next week?"
+  
+  - id: check_availability
+    name: Check availability
+    description: Intent to check available time slots
+    keywords:
+      - availability
+      - available
+      - slots
+    examples:
+      - "What times are available?"
+      - "Show me available slots for appointments"
+      - "When can I book an appointment?"
+  
+  - id: get_appointment_details
+    name: Get appointment details
+    description: Intent to retrieve details of an existing appointment
+    keywords:
+      - details
+      - status
+      - information
+    examples:
+      - "Tell me about my appointment"
+      - "What time is my meeting?"
+      - "Give me the details of my scheduled appointment"
