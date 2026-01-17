@@ -69,13 +69,6 @@ To run the application, execute the following command:
 python src/app.py
 ```
 
-Send a request to the API:
-```
-curl -X POST http://localhost:5000/chat \
-  -H "Content-Type: application/json" \
-  -d '{"input":"I want to book an appointment"}'
-```
-
 ## Testing
 
 To run the tests, use:
@@ -86,7 +79,3 @@ pytest tests/
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
